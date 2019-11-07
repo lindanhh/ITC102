@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Button Showing the Date</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+
+<h2>Want to see a trick?</h2>
+
+<p id="demo1">Now you see me....</p>
+
+<button type="button" onclick="myFunction()">Click</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = " ";
+}
+</script>
+
+<h2>Would you like the lights on or off?</h2>
+
+
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Light On</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Light off</button>
+
+
+
+
+</body>
+</html> 
